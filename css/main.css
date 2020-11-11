@@ -1,0 +1,298 @@
+body {
+  margin: 0!important;
+  background-color:black;
+  font-family: "Oswald", cursive;
+}
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  transition: all 0.3s linear;
+}
+a:hover {
+  opacity: 0.6;
+  color: whitesmoke;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  font-size: 4.5rem;
+  font-style: bold;
+  text-shadow: 3px 1px grey;
+  transition: all 0.3s linear;
+  list-style: none;
+}
+li a:hover {
+  opacity: 0.6;
+}
+.container-home {
+  width: 100%;
+  height: auto;
+  min-height: 76vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/fotobwbio.jpg");
+  margin-bottom: 30px; 
+}
+article {
+  font-size: 2.2rem;
+  color: whitesmoke;
+  text-shadow: 1px 1px grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+ padding-left: 70px!important;
+}
+.tattoo-title {
+  margin: 3rem 0 3rem 0;
+}
+.tattoo-title h1{
+  font-size: 4rem;
+  color: whitesmoke;
+  text-shadow: 1px 1px grey;
+}
+#lightgallery.#lightgallery2  {
+  height: auto;
+  width: 90%;
+  margin: 30px auto 30px auto;
+  background-color:rgba(59, 59, 59, .2);
+  display: block;
+}
+.container-gallery {
+  width: 100%;
+  height: auto;
+  background-color: rgba(26, 25, 25, 0.2);
+  text-align: center;
+}
+.container-gallery a {
+  width: 240px;
+  height: 360px;
+  padding: 33px;
+  display: inline-block;
+}
+.container-gallery #lightgallery img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+.container-gallery #lightgallery img:hover {
+  transform: scale(1, 1.03);
+  opacity: 0.9;
+}
+.container-gallery #lightgallery2 img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+.container-gallery #lightgallery2 img:hover {
+  transform: scale(1, 1.03);
+  opacity: 0.5;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  display: block;
+  text-align: center;
+  align-content: center;
+  color: whitesmoke;
+  padding-bottom: 20px;
+}
+footer img {
+  width: 3.1rem;
+  height: 3.1rem;
+  margin: 0px 1rem;
+  transition: all 0.5s;
+}
+footer img:hover {
+  transform: scale(1, 1.05);
+  opacity: 0.7;
+}
+.copy {
+  font-size: .8rem;
+}
+/* ############################################ Responsive ######################################## */
+@media only screen and (max-width: 900px) {
+
+li {
+  font-size: 2.9rem;
+  text-shadow: 1px 1px grey;
+}
+
+.container-home {
+width: auto;
+  min-height: 63vh;
+  margin-bottom: 30px; 
+}
+article {
+  font-size: 1.4rem;
+  text-shadow: 1px 1px grey;
+  padding-top: 2.4rem!important;
+  padding-bottom: 2.4rem!important;
+}
+.tattoo-title {
+  margin: 1rem 0 1rem 0;
+}
+.tattoo-title h1{
+  font-size: 2.5rem;
+  color: whitesmoke;
+  text-shadow: 1px 1px grey;
+}
+#lightgallery.#lightgallery2  {
+  height: auto;
+  width: 100%;
+  margin: 30px auto 30px auto;
+  background-color:rgba(59, 59, 59, .2);
+  display: block;
+}
+.container-gallery {
+  width: 100%;
+  height: auto;
+  background-color: rgba(26, 25, 25, 0.2);
+  text-align: center;
+}
+.container-gallery a {
+  width: 12rem;
+  height: 18rem;
+  padding: 22px;
+  display: inline-block;
+}
+.container-gallery #lightgallery img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+.container-gallery #lightgallery img:hover {
+  transform: scale(1, 1.03);
+  opacity: 0.9;
+}
+.container-gallery #lightgallery2 img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+.container-gallery #lightgallery2 img:hover {
+  transform: scale(1, 1.03);
+  opacity: 0.5;
+}
+footer {
+  padding-bottom: 20px;
+}
+footer img {
+  width: 2.1rem;
+  height: 2.1rem;
+  margin: 0px 0.5rem;
+  transition: all 0.5s;
+}
+footer img:hover {
+  transform: scale(1, 1.05);
+  opacity: 0.7;
+}
+.copy {
+  font-size: .7rem;
+}
+}
+/* Responsive */
+@media only screen and (max-width: 600px) {
+  ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  font-size: 2.5rem;
+  text-shadow: 1px 1px grey;
+}
+.container-home {
+  min-height: 63vh;
+  background-image: url("../img/fotobwbiomobile.jpg");
+  text-align: center;
+}
+.col-sm-hide {
+  display: none;
+}
+article {
+  width: 100%;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px grey;
+  padding-left: 1rem!important;
+  padding-top: .1rem;
+  padding-bottom: .1rem;
+}
+.tattoo-title {
+  margin: 1rem 0 1rem 0;
+}
+.tattoo-title h1{
+  font-size: 2rem;
+  color: whitesmoke;
+  text-shadow: 1px 1px grey;
+}
+#lightgallery.#lightgallery2  {
+  height: auto;
+  width: 100%;
+  margin: 12px auto 12px auto;
+  background-color:rgba(59, 59, 59, .2);
+  display: block;
+}
+.container-gallery {
+  width: 100%;
+  height: auto;
+  background-color: rgba(26, 25, 25, 0.2);
+  text-align: center;
+}
+.container-gallery a {
+  width: 9rem;
+  height: 12rem;
+  padding: 11px;
+  display: inline-block;
+}
+.container-gallery #lightgallery img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+  border-radius: 3px;
+  border: 1px solid white;
+}
+.container-gallery #lightgallery img:hover {
+  transform: scale(1, 1.03);
+  opacity: 0.9;
+}
+.container-gallery #lightgallery2 img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+.container-gallery #lightgallery2 img:hover {
+  transform: scale(1, 1.03);
+  opacity: 0.5;
+}
+footer {
+  padding-bottom: 20px;
+}
+footer img {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin: 0px 0.3rem;
+  transition: all 0.5s;
+}
+footer img:hover {
+  transform: scale(1, 1.05);
+  opacity: 0.7;
+}
+.copy {
+  font-size: .6rem;
+}
+}
